@@ -50,6 +50,8 @@
 ##
 # Описание класса
 #
+# @depend some_class
+#
 # @property _my_property - Описание свойства класса
 # @property _value - Описание другого свойства класса
 #
