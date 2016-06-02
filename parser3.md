@@ -113,3 +113,24 @@ $temp[$self._value]
 $result[$value]
 
 ```
+
+
+Пример использования Parser3
+-----------
+
+```
+^use[/path/to/myclass.p]
+
+$myclass:some_var - получение свойств класса
+^myclass:some_method[] - Статический вызов класса
+
+$object[^myclass::some_constructor[]] - Конструктор класса
+$object.some_var - получение свойств класса
+^object.some_method[] - Динамический вызов класса
+
+Есть супре глобавльный класс MAIN
+то есть можно делать так
+
+^MAIN:if(def $var){} - вызов обычного ^if
+$MAIN:my_var - подучение глобальной переменной
+```
