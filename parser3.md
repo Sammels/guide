@@ -119,18 +119,18 @@ $result[$value]
 -----------
 
 ```
-^use[/path/to/myclass.p]
+^use[/path/to/myclass.p] - подключение класса
 
 $myclass:some_var - получение свойств класса
-^myclass:some_method[] - Статический вызов класса
+^myclass:some_method[] - статический вызов класса
 
-$object[^myclass::some_constructor[]] - Конструктор класса
+$object[^myclass::some_constructor[]] - конструктор класса
 $object.some_var - получение свойств класса
-^object.some_method[] - Динамический вызов класса
+^object.some_method[] - динамический вызов класса
 
-Есть супер глобальный класс MAIN
+Есть глобальный класс MAIN
 то есть можно делать так
-
 ^MAIN:if(def $var){} - вызов обычного ^if
-$MAIN:my_var - подучение глобальной переменной
+
+$MAIN:my_var - получение глобальной переменной
 ```
