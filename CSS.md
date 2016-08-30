@@ -32,12 +32,12 @@
 <h3>Пример БЭМ-а</h3>
 ```html
 <ul class="dop-nav">
-    <li class="dop-nav__item dop-nav__item_active"><a class="dop-nav__link">One</a></span></li>
+    <li class="dop-nav__item dop-nav__item--active"><a class="dop-nav__link">One</a></span></li>
     <li class="dop-nav__item"><a class="dop-nav__link">Two</a></li>
     <li class="dop-nav__item"><a class="dop-nav__link">Three</a></li>
 </ul>
 ```
-`dop-nav` обозначает имя блока, `dop-nav__item` и `dop-nav__link` — имена элементов, а `dop-nav__item_active` — имя модификатора элемента item
+`dop-nav` обозначает имя блока, `dop-nav__item` и `dop-nav__link` — имена элементов, а `dop-nav__item--active` — имя модификатора элемента item
 
 <h3>Полезные ссылки</h3>
 <ul>
