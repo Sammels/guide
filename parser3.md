@@ -152,6 +152,7 @@ $page(^form:page.int(1))
 Скрипт создание аккаунта администратора
 -----------
 ```
+@text[]
 $user[^user:new[]]
 $user.login[admin]
 $user.password[^hash_make[MyPassword]]
