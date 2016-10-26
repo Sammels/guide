@@ -148,3 +148,13 @@ $MAIN:my_var - получение глобальной переменной
 # Хорошо
 $page(^form:page.int(1))
 ```
+
+Скрипт создание аккаунта администратора
+-----------
+```
+$user[^user:new[]]
+$user.login[admin]
+$user.password[^hash_make[MyPassword]]
+$user[^user.save[]]
+^user.assign_role[admin]
+```
